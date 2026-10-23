@@ -17,14 +17,14 @@ Tienes dos formas de ejecutar esta aplicación en Windows:
 
 ### Opción 1: Usando el acceso rápido (`.bat`)
 Si estás en Windows, la forma más sencilla es usar el script automatizado:
-1. Asegúrate de que `abrir_cajero.bat` y `cajero.jar` estén en la misma carpeta.
-2. Haz **doble clic** sobre el archivo `abrir_cajero.bat`.
+1. Asegúrate de que `Cajero.bat` y `Cajero.jar` estén en la misma carpeta.
+2. Haz **doble clic** sobre el archivo `Cajero.bat`.
 
 ### Opción 2: Desde la terminal de comandos (CMD o PowerShell)
 1. Abre la terminal y navega hasta la carpeta donde se encuentra el archivo `.jar`.
 2. Ejecuta el siguiente comando:
    ```bash
-   java -jar cajero.jar
+   java -jar Cajero.jar
    ```
 
 ---
