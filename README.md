@@ -1,6 +1,6 @@
 # Sistema de Cajero Automático 🏦
 
-Este proyecto es una aplicación de consola en Java que simula las funciones de un cajero automático. El archivo fuente principal es `bienvenida.java` y ha sido empaquetado en un archivo ejecutable `.jar`.
+Este proyecto es una aplicación de consola en Java que simula las funciones de un cajero automático. El archivo fuente principal es `Bienvenida.java` y ha sido empaquetado en un archivo ejecutable `.jar`.
 
 ## 📋 Requisitos Previos
 
@@ -31,17 +31,17 @@ Si estás en Windows, la forma más sencilla es usar el script automatizado:
 
 ## 🛠️ ¿Cómo volver a compilar y empaquetar el código? (Opcional)
 
-Si realizas cambios en el código fuente `bienvenida.java` y deseas generar un nuevo archivo `cajero.jar`, sigue estos pasos en la terminal:
+Si realizas cambios en el código fuente `Bienvenida.java` y deseas generar un nuevo archivo `Cajero.jar`, sigue estos pasos en la terminal:
 
 1. **Compilar el código fuente:**
    ```bash
-   javac bienvenida.java
+   javac Bienvenida.java
    ```
-   *(Esto generará el archivo `bienvenida.class`)*
+   *(Esto generará el archivo `Bienvenida.class`)*
 
 2. **Empaquetar el nuevo JAR:**
    ```bash
-   jar -cfe cajero.jar bienvenida bienvenida.class
+   jar -cfe Cajero.jar Bienvenida Bienvenida.class
    ```
 
 ---
