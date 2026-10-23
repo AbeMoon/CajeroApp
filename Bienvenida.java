@@ -158,7 +158,7 @@ public class Bienvenida {
                     }
                     break;
                 case 5:
-                    System.out.printf("\nGracias %s por usar %s vuelva pronto", nombreUsuario, NOMBRE_BANCO);
+                    System.out.printf("\nGracias %s por usar %s vuelva pronto", NOMBRES[pos], NOMBRE_BANCO);
                     break;
                 default:
                     System.out.printf("\n\nOpcion invalida");
